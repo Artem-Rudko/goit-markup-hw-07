@@ -1,0 +1,13 @@
+address .footer.link {
+    @include font-param(14px);
+    color: $footer-text-clr;
+}
+
+address .footer.address {
+    color: $bgc-main;
+}
+
+.contacts .phone,
+.contacts .email {
+    color: rgba(255, 255, 255, 0.6);
+}

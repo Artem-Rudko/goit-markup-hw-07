@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header>
@@ -56,13 +56,13 @@
         <!--Секция Герой-->
         <section class="hero">
             <h1 class="hero-title">Эффективные решения <br /> для вашего бизнеса</h1>
-            <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
+            <button class="button" type="button" data-modal-open>Заказать услугу</button>
         </section>
 
         <!--Секция Преимущества-->
         <section class="advantages">
             <div class="container">
-                <h2 class="section-title" hidden>Преимущества</h2>
+                <h2 class="section-title visually-hidden">Преимущества</h2>
                 <ul class="list advantages-list">
                     <li class="advantages-list-item">
                         <h3 class="list-advantages">Внимание к деталям</h3>
@@ -389,7 +389,7 @@
                 </address>
             </div>
             <div class="contacts-social">
-                <p class="join-us">Присоединяйтесь</p>
+                <h3 class="join-us">Присоединяйтесь</h3>
                 <ul class="list social-icons">
                     <li class="social-icons-item">
                         <a class="social-icons-link" href="https://instagram.com" target="_blank" rel="noopener noreferer">
@@ -422,10 +422,10 @@
                 </ul>
             </div>
             <form class="subscribe">
-                <p class="subscribe-label join-us">Подпишитесь на рассылку</p>
+                <h3 class="subscribe-label join-us">Подпишитесь на рассылку</h3>
                 
                 <input class="subscribe-input" type="email" name="subcribe" id="subcribe" placeholder="E-mail">
-                <button class="subscribe-button hero-button" type="submit">
+                <button class="button" type="submit">
                     Подписаться
                     <svg class="icon-send" width="24" height="24">
                         <use href="./images/sprite.svg#icon-send"></use>
