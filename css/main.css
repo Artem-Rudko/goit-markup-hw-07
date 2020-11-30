@@ -103,7 +103,7 @@ footer .container {
   display: flex;
 }
 
-.main-nav .logo {
+.main-nav .logo.link {
   margin-right: 93px;
 }
 
@@ -158,14 +158,6 @@ header .list {
 .header-nav {
   display: flex;
   align-items: center;
-}
-
-.main-nav {
-  display: flex;
-}
-
-.main-nav .logo {
-  margin-right: 93px;
 }
 
 .contacts .link {
@@ -226,11 +218,13 @@ address .footer.link {
 
 address .footer.address {
   color: #ffffff;
+  font-style: normal;
 }
 
 .contacts .phone,
 .contacts .email {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 .button {
